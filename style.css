@@ -1,0 +1,109 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+    
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    color: #423F3E;
+}
+.name-color{
+    color: rgb(234, 58, 58);
+}
+.left{
+    margin-top: 50px;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.left img{
+    width: 100%;
+}
+.tp-banner{
+
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 350px;
+}
+.link-btn{
+    text-decoration: none;
+   background-color:rgb(234, 58, 58);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 0;
+    
+}
+.link-btn:hover{
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+}
+.d-area{
+   background-image: url(img/d-area-bg.png);
+   background-repeat: no-repeat;
+   background-position: right;
+
+
+}
+.exp-area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+.left-1{
+    margin-top: 50px;
+    width: 23%;
+    float: left;
+    margin-left: 7%;
+    padding-left: 2%;
+}
+
+.ex{
+    margin-left: 7%;
+}
+.box-style{
+    box-shadow:10px 10px 40px gray;
+    border-radius: px;
+}
+#border-color1{
+    border-left: 7px solid;
+    border-image: linear-gradient(#b77eca,#00c285) ;
+    border-image-slice: 1;
+   
+}
+#border-color2{
+    border-left: 7px solid;
+    border-image: linear-gradient(#7eb8ca,#ee5135) ;
+    border-image-slice: 1;
+   
+}
+#border-color3{
+    border-left: 7px solid;
+    border-image: linear-gradient(#7ECA9C,#f5d925) ;
+    border-image-slice: 1;
+   
+}
+footer p{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    margin: 0 10 ;
+
+}
+footer a{
+    text-decoration: none;
+    color: #f8b05d;
+}
